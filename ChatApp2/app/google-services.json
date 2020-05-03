@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "902976012762",
+    "firebase_url": "https://letuschat-a809b.firebaseio.com",
+    "project_id": "letuschat-a809b",
+    "storage_bucket": "letuschat-a809b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902976012762:android:854b6636a4409df76e40e3",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902976012762-bn3ip8cnnng5p4igbrlneovj88qhlunp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYl6c9sFKdyi0yZodUWMs7juz4JtDm9mA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902976012762-bn3ip8cnnng5p4igbrlneovj88qhlunp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

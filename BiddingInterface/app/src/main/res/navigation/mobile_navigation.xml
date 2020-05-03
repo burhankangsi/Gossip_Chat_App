@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_home_mn">
+
+    <fragment
+        android:id="@+id/nav_my_home_mn"
+        android:name="com.example.biddinginterface.ui.home.MyBids"
+        android:label="My Bids"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_bids_mn"
+        android:name="com.example.biddinginterface.ui.home.MyBids"
+        android:label="My Bids"
+        tools:layout="@layout/fragment_my_bids" />
+
+    <fragment
+        android:id="@+id/nav_my_purchases_mn"
+        android:name="com.example.biddinginterface.ui.gallery.MyPurchases"
+        android:label="My Purchases"
+        tools:layout="@layout/fragment_my_purchases" />
+
+    <fragment
+        android:id="@+id/nav_my_profile_mn"
+        android:name="com.example.biddinginterface.ui.slideshow.MyProfile"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+
+    <fragment
+        android:id="@+id/nav_transaction_history_mn"
+        android:name="com.example.biddinginterface.ui.tools.TransactionHistory"
+        android:label="Transaction History"
+        tools:layout="@layout/fragment_transaction_history" />
+
+    <fragment
+        android:id="@+id/nav_settings_mn"
+        android:name="com.example.biddinginterface.ui.share.Settings"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_wishlist_mn"
+        android:name="com.example.biddinginterface.ui.send.Wishlist"
+        android:label="Wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/nav_share_n_earn_mn"
+        android:name="com.example.biddinginterface.ShareEarn"
+        android:label="Share Earn"
+        tools:layout="@layout/fragment_share_earn" />
+
+    <fragment
+        android:id="@+id/nav_cust_care_mn"
+        android:name="com.example.biddinginterface.ui.CustomerService"
+        android:label="Customer Service"
+        tools:layout="@layout/fragment_customer" />
+
+
+</navigation>

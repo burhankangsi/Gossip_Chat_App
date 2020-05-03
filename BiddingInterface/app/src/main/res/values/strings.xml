@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bidding Interface</string>
+    <string name="title_activity_home__drawer">Home_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="item1">Home</string>
+    <string name="item2">My Bids</string>
+    <string name="item3">My Purchases</string>
+    <string name="item4">My Profile</string>
+    <string name="item5">Transaction History</string>
+    <string name="item6">Settings</string>
+    <string name="item7">Wishlist</string>
+    <string name="item8">Share And Earn</string>
+    <string name="item9">Customer Service</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

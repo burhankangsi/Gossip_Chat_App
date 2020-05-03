@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SignUpActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/iv_signup_back"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_arrow_back_black_24dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_signup_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign-up"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#CA8080"
+                android:textAllCaps="true"
+                android:textSize="40dp"/>
+        </LinearLayout>
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_name"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:textColor="#010203"
+            />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_email"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColor="#010203"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_phone"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="phone"
+            android:hint="Phone"
+            android:textColor="#010203"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_city"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="text"
+            android:hint="City"
+            android:textColor="#010203"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_password"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColor="#010203"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/et_signup_reenter_password"
+            app:met_primaryColor="#ffffff"
+            app:met_textColorHint="#70000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:paddingLeft="5dp"
+            android:inputType="textPassword"
+            android:hint="Re-enter Password"
+            android:textColor="#010203"
+            />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:paddingLeft="3dp"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffff00"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"/>
+
+    </LinearLayout>
+
+</ScrollView>

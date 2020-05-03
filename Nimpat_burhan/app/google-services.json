@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "552444346908",
+    "firebase_url": "https://nimpatburhan.firebaseio.com",
+    "project_id": "nimpatburhan",
+    "storage_bucket": "nimpatburhan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:552444346908:android:8403e52440bd11ab",
+        "android_client_info": {
+          "package_name": "com.example.nimpat_burhan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "552444346908-9acsr9jdcp3rvohgtgmosb08qof6prtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nimpat_burhan",
+            "certificate_hash": "9fe60a8dd217c4fece69081e02fc7e1d8321db17"
+          }
+        },
+        {
+          "client_id": "552444346908-1luvl08ibqsdkhclol897a6tmdj630e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4e6VaPdQHh859Ar7v8i3yqrhP0oDWA9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "552444346908-1luvl08ibqsdkhclol897a6tmdj630e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
